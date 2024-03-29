@@ -8,6 +8,24 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+h1 .gokul{
+  background: url("https://i.pinimg.com/564x/0a/32/19/0a32192747b20801fdd665f6007d49c5.jpg") repeat-y;
+  background-clip: text;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255,255,255,.5);
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* For non-webkit browsers */
+  animation: aitf 10s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+  transform: translate3d(0,0,0);
+  backface-visibility: hidden;
+}
+@keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
@@ -268,7 +286,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: mediumseagreen;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px rgb(102, 106, 97);
+  ;
   
 
   
@@ -306,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1c7d32;
+  color: #46e750;
   text-decoration: none;
 }
 
@@ -784,6 +804,9 @@ certification-info h4 {
 @media (max-width: 767px) {
   .icon-box {
       padding: 5px; /* Adjust padding for smaller screens */
+  }
+  .icon-box img{
+    margin-top: 10px;
   }
 
   .icon-box h3 { font-size: 20px; }
