@@ -14,8 +14,7 @@ h1 .gokul{
   display: block;
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255,255,255,.5);
-  -webkit-text-fill-color: transparent;
-  color: blue; /* For non-webkit browsers */
+
   animation: aitf 10s linear infinite;
 
   /* Activate hardware acceleration for smoother animations */
