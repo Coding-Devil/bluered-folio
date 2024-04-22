@@ -9,21 +9,11 @@
 # General
 --------------------------------------------------------------*/
 h1 .gokul{
-  background: url("https://i.pinimg.com/564x/0a/32/19/0a32192747b20801fdd665f6007d49c5.jpg") repeat-y;
+ background: linear-gradient(to bottom, blue, black); /* Gradient from matte black to silver grey */
+  -webkit-background-clip: text;
   background-clip: text;
-  display: block;
-  margin: 0 auto;
-  text-shadow: 0 0 80px rgba(255,255,255,.5);
-
-  animation: aitf 10s linear infinite;
-
-  /* Activate hardware acceleration for smoother animations */
-  transform: translate3d(0,0,0);
-  backface-visibility: hidden;
-}
-@keyframes aitf {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+  color: transparent;
+  display: inline-block; 
 }
 body {
   font-family: "Open Sans", sans-serif;
