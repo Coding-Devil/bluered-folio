@@ -13,7 +13,7 @@ Design: Figma, Canva
 ## 🤝 Connect With Me
 
 Feel free to reach out if you have any project ideas or just want to say hi! Here's where you can find me:
-- **[LinkedIn](#)**
+- **[LinkedIn]()**
 - **[Twitter](#)**
 
 ---
