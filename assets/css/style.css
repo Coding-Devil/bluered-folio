@@ -404,9 +404,10 @@ section {
 
 section.section-show {
   top: 70px;
+  padding-top: 20px;
   bottom: auto;
   opacity: 1;
-  padding-bottom: 35px;
+  padding-bottom: 10px;
 }
 
 section .container {
