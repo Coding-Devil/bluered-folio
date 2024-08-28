@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url("../img/mbg.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     justify-content: left;
   }
   #header h1 {
@@ -379,10 +379,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header.header-top {
-    height: 60px;
+    height: 80px;
   }
   #header.header-top h1 {
-    font-size: 26px;
+    font-size: 28px;
+   font-family: Helvetica, Arial, sans-serif;
   }
 }
 
