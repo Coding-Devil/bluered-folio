@@ -145,10 +145,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
 
   header{
-    background-image: url("../img/pfmob.png");
+    background-image: url("../img/mbg.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     justify-content: left;
   }
   #header h1 {
@@ -379,11 +379,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header.header-top {
-    height: 80px;
+    height: 60px;
   }
   #header.header-top h1 {
-    font-size: 28px;
-   font-family: Helvetica, Arial, sans-serif;
+    font-size: 26px;
   }
 }
 
